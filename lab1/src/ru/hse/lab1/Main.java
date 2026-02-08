@@ -9,7 +9,7 @@ import ru.hse.lab1.second.Person;
 */
 
 public class Main {
-    void main(){
+    public static void main(String[] args) {
         Person Ivan = new Person("Ivan", 55.6f, 170);
         System.out.println("\n" + Ivan.height);
     }
